@@ -1,5 +1,6 @@
 # tru Weather
 
+
 This is an app used to fetch the current weather of the user's current location or the location entered by the user.
 
 [![GitHub issues](https://img.shields.io/github/issues/1010varun/weather-app)](https://github.com/1010varun/weather-app/issues)
