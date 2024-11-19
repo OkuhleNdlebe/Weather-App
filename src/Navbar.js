@@ -11,7 +11,7 @@ const Navbar = (props) => {
           className=" ms-5 mb-0 h3 text-center"
           style={{ color: "white", fontFamily: "Dancing Script, cursive" }}
         >
-          tru Weather
+          Oks Weather
         </span>
         <div className="form-check form-switch">
           {/* <input className="form-check-input" onClick={props.toggleMode} type="checkbox" role="switch" id="flexSwitchCheckDefault" /> */}

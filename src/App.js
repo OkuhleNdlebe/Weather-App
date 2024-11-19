@@ -202,8 +202,7 @@ const App = () => {
 
   useEffect(() => {
     if (description) {
-      // const word = description.split(' ');
-      // console.log(word);
+      
   
       // const bgurl = weatherURLs[word.join('').toLowerCase()] || weatherURLs.default; // Use a default URL if not found
       document.body.style.background = `#f3f3f3 url('${determineweatherurl(description)}') no-repeat`;
@@ -241,7 +240,6 @@ const App = () => {
   }, [datas]);
   return (
     <div className="w-full min-h-screen overflow-hidden">
-      {/* <div className="bg-black text-white p-3 lg:text-xl"> tru Weather</div> */}
       <Navbar mode={mode} toggleMode={toggleMode} />
       <div className="d-flex flex-column gap-2 mt-5 mx-2">
         <input
